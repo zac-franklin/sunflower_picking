@@ -1,4 +1,4 @@
-FROM ubuntu:focal as builder
+FROM ubuntu:focal AS builder
 
 COPY . /build
 WORKDIR /build
